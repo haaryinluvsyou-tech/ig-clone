@@ -1,0 +1,50 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.profile-pic img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.username {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.stats-row {
+  display: flex;
+  gap: 24px;
+}
+
+.stat {
+  font-size: 14px;
+}
+
+.full-name {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.bio {
+  font-size: 14px;
+  color: #ccc;
+}
